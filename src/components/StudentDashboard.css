@@ -1,0 +1,46 @@
+.dashboard-title {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .dashboard-container {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .student-details,
+  .enrolled-courses {
+    align-items: center;
+    text-align: center;
+    background-color: lightblue;
+    flex: 1;
+    padding: 20px;
+    border: 2px solid #ccc;
+  }
+  
+  .progress-bar {
+    background-color: #f0f0f0;
+    height: 20px;
+    border-radius: 10px;
+    margin-top: 10px;
+    position: relative;
+    overflow: hidden; 
+  }
+  
+  .progress {
+    height: 100%;
+    border-radius: 10px;
+    background-color: #4caf50; 
+    transition: width 0.3s ease-in-out;
+  }
+  
+  .progress.incomplete {
+    background-color: #f44336; 
+  }
+  
+  .button-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    align-items: center;
+  }

@@ -20,6 +20,7 @@ const StudentIdInput = () => {
           <input
             type="text"
             value={studentId}
+            placeholder='Enter any number between 101-108'
             onChange={(e) => setStudentId(e.target.value)}
             className="input"
           />

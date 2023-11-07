@@ -24,7 +24,7 @@ Technologies and libraries used: HTML, CSS, JavaScript, React, React-redux, redu
 
 Project is focused on functionality have applied basic css with responsiveness.
 
-
+"Project Demo Link :https://screenrec.com/share/yCIn0ghXEb"
 
 
 
